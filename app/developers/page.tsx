@@ -24,9 +24,9 @@ export default function DevelopersPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
             We are the developers of this website, Leynard M. Peñaranda, Jerson
-            D. Jaba-an, and Edhel John L. Zamora. We are 3rd year Bachelor of
-            Science in Information Systems students who want to help contribute
-            to Dr. Jose Rizal.
+            D. Jaba-an, Edhel John L. Zamora, and Rea B. Gilhang. We are 3rd
+            year Bachelor of Science in Information Systems students who want
+            to help contribute to Dr. Jose Rizal.
           </p>
         </Reveal>
 
@@ -52,19 +52,26 @@ export default function DevelopersPage() {
         <section className="mx-auto mt-12 grid w-full max-w-[70vw] gap-6">
           <Reveal>
             <DeveloperCard
+              name="Rea B. Gilhang"
+              imageSrc="/Rea B. Gilhang.png"
+              imageAlt="Portrait of Rea B. Gilhang"
+            />
+          </Reveal>
+          <Reveal delay={120}>
+            <DeveloperCard
               name="Leynard M. Peñaranda"
               imageSrc="/Leynard M. Penaranda.png"
               imageAlt="Portrait of Leynard M. Peñaranda"
             />
           </Reveal>
-          <Reveal delay={120}>
+          <Reveal delay={240}>
             <DeveloperCard
               name="Jerson D. Jaba-an"
               imageSrc="/Jerson D. Jaba-an.png"
               imageAlt="Portrait of Jerson D. Jaba-an"
             />
           </Reveal>
-          <Reveal delay={240}>
+          <Reveal delay={360}>
             <DeveloperCard
               name="Edhel John L. Zamora"
               imageSrc="/Edhel John L. Zamora.png"
