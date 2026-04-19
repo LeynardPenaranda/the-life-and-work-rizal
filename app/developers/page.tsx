@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { DeveloperCard } from "@/components/DeveloperCard";
 import { Reveal } from "@/components/Reveal";
 
@@ -23,10 +23,10 @@ export default function DevelopersPage() {
             Project Developers
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-            This website was developed by Leynard M. Penaranda and Jerson D. Jaba-an.
-            They are Bachelor of Science in Information Systems students, currently in
-            3rd year, with a focus on creating clean, functional, and presentation-ready
-            digital projects.
+            We are the developers of this website, Leynard M. Peñaranda, Jerson
+            D. Jaba-an, and Edhel John L. Zamora. We are 3rd year Bachelor of
+            Science in Information Systems students who want to help contribute
+            to Dr. Jose Rizal.
           </p>
         </Reveal>
 
@@ -52,9 +52,9 @@ export default function DevelopersPage() {
         <section className="mx-auto mt-12 grid w-full max-w-[70vw] gap-6">
           <Reveal>
             <DeveloperCard
-              name="Leynard M. Penaranda"
+              name="Leynard M. Peñaranda"
               imageSrc="/Leynard M. Penaranda.png"
-              imageAlt="Portrait of Leynard M. Penaranda"
+              imageAlt="Portrait of Leynard M. Peñaranda"
             />
           </Reveal>
           <Reveal delay={120}>
@@ -62,6 +62,13 @@ export default function DevelopersPage() {
               name="Jerson D. Jaba-an"
               imageSrc="/Jerson D. Jaba-an.png"
               imageAlt="Portrait of Jerson D. Jaba-an"
+            />
+          </Reveal>
+          <Reveal delay={240}>
+            <DeveloperCard
+              name="Edhel John L. Zamora"
+              imageSrc="/Edhel John L. Zamora.png"
+              imageAlt="Portrait of Edhel John L. Zamora"
             />
           </Reveal>
         </section>
